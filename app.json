@@ -4,7 +4,6 @@
     "pages/myself"
   ],
   "window": {
-    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#FAFBFC",
     "navigationBarTitleText": "乐视视频",
     "navigationBarTextStyle": "black",
