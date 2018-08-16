@@ -1,0 +1,21 @@
+<!--pages/index.wxml-->
+<view class='page'>
+  <swiper indicator-dots='true' class='swiper' autoplay='true'>
+    <block wx:for="{{focus}}" wx:key="*this">
+      <swiper-item>
+        <image src="{{item}}" class='focus-image'></image>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='header'>
+    <text class='header-title'>电视剧</text>
+    <text class='header-more' bindtap='clickMore'>更多 ></text>
+  </view>
+  <view class='grid'>
+    <block wx:for="{{video}}" wx:key="*this">
+      <view style="background-color: red">
+        <text>{{item}}</text>
+      </view>
+    </block>
+  </view>
+</view>

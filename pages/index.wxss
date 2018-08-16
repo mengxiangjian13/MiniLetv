@@ -1,0 +1,32 @@
+/* pages/index.wxss */
+.page {
+  background-color: #fafbfc;
+}
+.swiper {
+  height: 422rpx;
+}
+.focus-image {
+  width: 100%; 
+  height:100%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-auto-rows: 267rpx;
+  grid-column-gap: 4px;
+}
+.header {
+  display: flex;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-title {
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.header-more {
+  font-size: 12px;
+  padding-right: 10px;
+}

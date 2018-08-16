@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/myself"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FAFBFC",
+    "navigationBarTitleText": "乐视视频",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/myself",
+        "text": "我的"
+      }
+    ],
+    "selectedColor": "#E42112",
+    "backgroundColor": "#FAFBFC"
+  }
+}
