@@ -1,0 +1,2 @@
+<!--pages/play.wxml-->
+<text>pages/play.wxml video is {{vid}}</text>

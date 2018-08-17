@@ -9,6 +9,7 @@
   </swiper>
   <view>
     <block wx:for="{{title}}" wx:key="*this">
+      <view class='line'></view>
       <view class='header'>
         <text class='header-title'>{{item}}</text>
         <text class='header-more' bindtap='clickMore'>更多 ></text>

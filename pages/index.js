@@ -77,6 +77,10 @@ Page({
     let videoId = e.currentTarget.dataset.videoId;
     if (videoId !== undefined) {
       console.log(videoId);
+      let url = '/pages/play?vid=' + videoId;
+      wx.navigateTo({
+        url: url,
+      });
     }
   }
 })

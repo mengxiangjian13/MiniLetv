@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/index",
-    "pages/myself"
+    "pages/myself",
+    "pages/play"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FAFBFC",
