@@ -12,8 +12,10 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  grid-auto-rows: 267rpx;
+  grid-auto-rows: calc((750rpx - 24px) / 2.0 /16.0 * 9.0 + 56px);
   grid-column-gap: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .header {
   display: flex;
@@ -29,4 +31,17 @@
 .header-more {
   font-size: 12px;
   padding-right: 10px;
+}
+.item-container {
+  width: 100%;
+  height: 100%;
+}
+.thumb {
+  width: 100%;
+  height: calc((750rpx - 24px) / 2.0 /16.0 * 9.0);
+}
+
+.item-title {
+  font-size: 14px;
+  color: #0b0b0b;
 }

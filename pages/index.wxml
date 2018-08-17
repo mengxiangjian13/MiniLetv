@@ -7,14 +7,19 @@
       </swiper-item>
     </block>
   </swiper>
-  <view class='header'>
-    <text class='header-title'>电视剧</text>
-    <text class='header-more' bindtap='clickMore'>更多 ></text>
-  </view>
-  <view class='grid'>
-    <block wx:for="{{video}}" wx:key="*this">
-      <view style="background-color: red">
-        <text>{{item}}</text>
+  <view>
+    <block wx:for="{{title}}" wx:key="*this">
+      <view class='header'>
+        <text class='header-title'>{{item}}</text>
+        <text class='header-more' bindtap='clickMore'>更多 ></text>
+      </view>
+      <view class='grid'>
+        <block wx:for="{{video}}" wx:key="*this">
+          <view class='item-container' bindtap='itemTap' data-video-id="{{index}}">
+            <image class='thumb' src="{{focus[item%3]}}"></image>
+            <text class='item-title'>{{item}}</text>
+          </view>
+        </block>
       </view>
     </block>
   </view>
