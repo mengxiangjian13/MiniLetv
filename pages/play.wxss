@@ -1,1 +1,36 @@
 /* pages/play.wxss */
+
+.video {
+  width: 750rpx;
+  height: 422rpx;
+}
+
+.scroll {
+  width: 100%;
+  height: 200px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  grid-auto-rows: calc((750rpx-100px)/5.0);
+}
+
+.item-container {
+  display: flex;
+  width: 100%;
+  height: calc((750rpx - 100px) / 5.0);
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid red;
+}
+.episode {
+  flex: 1;
+  text-align: center;
+  color: #0b0b0b;
+}
+
